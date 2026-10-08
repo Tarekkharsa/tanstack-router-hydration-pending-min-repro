@@ -1,0 +1,25 @@
+{
+  "name": "tanstack-router-hydration-pending-min-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 7300",
+    "build": "vite build",
+    "preview": "vite preview --strictPort",
+    "test": "vite build && node tests/repro.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "1.170.41",
+    "@tanstack/react-start": "1.168.60",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "playwright": "1.62.1",
+    "typescript": "^5.9.0",
+    "vite": "8.3.1"
+  }
+}
